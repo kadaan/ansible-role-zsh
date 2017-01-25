@@ -1,0 +1,11 @@
+---
+- name: Ensure zsh homebrew package is installed.
+  homebrew:
+    name: zsh
+    state: present
+
+- name: Ensure zsh is the default shell.
+  user:
+    name: "{{ ansible_env.USER }}"
+    shell: /bin/zsh
+  become: true
