@@ -1,4 +1,4 @@
-kadaan.zsh
+zsh
 =========
 
 Installs zsh and configures it as the default shell.
@@ -18,4 +18,4 @@ Example Playbook
 License
 -------
 
-Apache
+Apache 2.0
