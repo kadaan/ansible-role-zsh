@@ -1,21 +1,27 @@
-zsh
-=========
+# Ansible Role: Zsh
+
+[![Build Status](https://travis-ci.org/kadaan/ansible-role-zsh.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-zsh)
 
 Installs zsh and configures it as the default shell.
 
-Dependencies
-------------
+## Requirements
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+None.
 
-Example Playbook
-----------------
+## Role Variables
 
-    - hosts: servers
+None.
+
+## Dependencies
+
+  - `geerlingguy.homebrew`
+
+## Example Playbook
+
+    - hosts: localhost
       roles:
-         - { role: kadaan.zsh }
+        - { role: kadaan.zsh }
 
-License
--------
+## License
 
 Apache 2.0
