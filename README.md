@@ -14,7 +14,7 @@ None.
 
 ## Dependencies
 
-  - `geerlingguy.homebrew`
+  - `kadaan.homebrew`
 
 ## Example Playbook
 
