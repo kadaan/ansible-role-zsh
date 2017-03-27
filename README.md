@@ -14,13 +14,13 @@ None.
 
 ## Dependencies
 
-  - `kadaan.homebrew`
+  - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: kadaan.zsh }
+        - { role: kadaan.zsh, zsh_execute: true }
 
 ## License
 
