@@ -3,11 +3,9 @@
   homebrew:
     name: zsh
     state: present
-  when: zsh_execute == true
 
 - name: Ensure zsh is the default shell.
   user:
     name: "{{ ansible_env.USER }}"
     shell: /bin/zsh
   become: true
-  when: zsh_execute == true
