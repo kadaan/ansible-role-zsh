@@ -1,16 +1,19 @@
+---
+dependencies:
+  - kadaan.homebrew
+
 galaxy_info:
+  role_name: zinit
   author: kadaan
   description: Installs zsh and configures it as the default shell.
-  license: Apache 2.0
-  min_ansible_version: 2.2
+  license: "Apache 2.0"
+  min_ansible_version: 2.4
   platforms:
-    - name: MacOSX
+    - name: GenericUNIX
       versions:
-        - 10.11
-        - 10.12
+        - all
+        - any
   galaxy_tags:
     - development
     - system
     - console
-dependencies:
-  - kadaan.homebrew

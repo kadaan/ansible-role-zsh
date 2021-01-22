@@ -1,6 +1,6 @@
 # Ansible Role: Zsh
 
-[![Build Status](https://travis-ci.com/kadaan/ansible-role-zsh.svg?branch=master)](https://travis-ci.com/kadaan/ansible-role-zsh)
+[![CI][badge-gh-actions]][link-gh-actions]
 
 Installs zsh and configures it as the default shell.
 
@@ -25,3 +25,6 @@ None.
 ## License
 
 Apache 2.0
+
+[badge-gh-actions]: https://github.com/kadaan/ansible-role-zsh/workflows/CI/badge.svg?event=push
+[link-gh-actions]: https://github.com/kadaan/ansible-role-zsh/actions?query=workflow%3ACI
